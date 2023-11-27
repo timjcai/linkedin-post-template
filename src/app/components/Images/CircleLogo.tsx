@@ -2,7 +2,7 @@
 import React, { FC } from "react";
 import styled from "styled-components";
 
-type LogoProps = { href: string };
+export type LogoProps = { href: string };
 
 export const CircleLogo: FC<LogoProps> = ({ href }) => {
     return (

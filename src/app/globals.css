@@ -18,6 +18,8 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(91,91,91,0.4);
-  background: linear-gradient(90deg, rgba(91,91,91,1) 0%, rgba(27,111,229,1) 50%, rgba(255,79,50,1) 100%);
+  background: rgb(91,91,91);
+  background: linear-gradient(90deg, rgba(91,91,91,1) 0%, rgba(20,20,20,1) 50%, rgba(57,62,65,1) 100%);
+  /* background: rgb(91,91,91,0.4);
+  background: linear-gradient(90deg, rgba(91,91,91,1) 0%, rgba(27,111,229,1) 50%, rgba(255,79,50,1) 100%); */
 }

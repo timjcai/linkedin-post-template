@@ -51,7 +51,7 @@ export const TextOverlayHeading = styled.h2`
 `;
 
 export const TextOverlayParagraph = styled.p`
-    font-size: 16px;
+    font-size: 18px;
 `;
 
 export const StyledProfile = styled.div`
@@ -61,16 +61,16 @@ export const StyledProfile = styled.div`
     align-self: center;
     border-radius: 16px;
     position: relative;
+    background: rgba(255, 255, 255, 0.53);
     border-radius: 16px;
-    background: rgba(255, 255, 255, 0.39);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.4px);
+    -webkit-backdrop-filter: blur(8.4px);
     width: 500px;
     height: 500px;
     left: 1em;
     overlay: fill;
     overflow: hidden;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 64px;
 `;
